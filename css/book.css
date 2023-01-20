@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../img/books.jpg") 0 0 no-repeat rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.search {
+    margin-top: 100px;
+    padding: 30px;
+}
+
+label p {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+#booksearch {
+    cursor: pointer;
+}
+
+.main {
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+}
+
+#contents {
+    margin: 0 auto;
+    width: 80%;
+}
